@@ -18,10 +18,13 @@
 }
 
 .card{
-    transition: trasform 0.3s ease ,box-shadow 0.3s ease;
+    transition: transform 0.3s ease ,box-shadow 0.3s ease;
 }
 
 .card:hover{
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
+
+.tags{display:flex;flex-wrap:wrap;gap:6px;}
+.tags span{background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.35);border-radius:20px;padding:3px 10px;font-size:0.85rem;}
